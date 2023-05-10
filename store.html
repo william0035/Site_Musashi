@@ -16,19 +16,22 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger uppercase-banner">Musashi Store</a>
+                <a href="index.html"> <button class="btn btn-primary  text-uppercase uppercase-banner">VOLTAR AO SITE</button> </a>
             </div>
         </nav>
-        <!-- Page Content-->
+        <!-- menu lateral-->
         <div class="container" id="text-edit">
             <div class="row">
                 <div class="col-lg-3">
-                    <h1 class="my-4">EXTRAS</h1>
+                    <h2 class="my-4">ENSINAMENTOS</h2>
                     <div class="list-group">
-                        <a class="list-group-item" data-toggle="modal" data-target="#exampleModalLong" href="#!">Dojo-kun</a>
-                        <a class="list-group-item" href="#!">Category 2</a>
-                        <a class="list-group-item" href="#!">Category 3</a>
+                        <a class="list-group-item" data-toggle="modal" data-target="#modal_dojokun">Dojo-kun</a>
+                        <a class="list-group-item" data-toggle="modal" data-target="#modal_20ensinamentos">Os 20 Ensinamentos do Mestre Funakoshi</a>
+                        <a class="list-group-item" data-toggle="modal" data-target="#modal_ensinamentosmusashi">Ensinamentos de Miyamoto Musashi</a>
                     </div>
                 </div>
+
+       <!-- livros-->
                 <div class="col-lg-9">
                     <div class="row store-contener">
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -114,10 +117,29 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <a href="#!"><img class="card-img-top capa_livro" src="assets/store/imagem/vagabond.jpg" alt="Capa do livro" /></a>
+                                <div class="card-body">
+                                    <h4 class="card-title"><a href="https://drive.google.com/drive/folders/1eDwrGHAlC7wWH16q2NybkFvtg9Z4I9Dp?usp=share_link" target="_blank">Download PDF</a></h4>
+                                    <h5>Vagabond</h5>
+                                    <details>
+                                        <summary>Detalhes</summary>
+                                        <p class="card-text">A história do mais famoso samurai do Japão (e do mundo), narrada de forma inteligente,realista... 
+                                            Vagabond é um título excelente, principalmente para os que gostam de realismo. Você começa a ler o mangá e se envolve de uma forma 
+                                            que parece que as páginas evaporam perante os olhos em 5 minutos, e ainda ficávamos com a sensação de que “acabou muito rápido, 
+                                            porém de forma intensa”. Mesmo assim,apenas pelo fato de contar a história de Musashi para que até mesmo as novas gerações o conheçam, 
+                                            Vagabond merece sem dúvida nenhuma ser tratado como uma obra já clássica.
+                                        </p>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         <!-- Footer-->
         <footer class="">
             <div class="col-lg-4 text-lg-left">
@@ -132,7 +154,7 @@
 
   
   <!-- Modal Dojo-kun-->
-  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal fade" id="modal_dojokun" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -263,6 +285,162 @@
               </dd>
           </dl>
         </div> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Sair</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 20 ensinamentos funakoshi-->
+  <div class="modal fade" id="modal_20ensinamentos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Os 20 Ensinamentos do Mestre Funakoshi</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <b>空手道は礼に始まり礼に終る事を忘るな</b><br>
+            <small><i>Karate-do wa rei ni hajimari rei ni owaru koto a wasaruna</i></small><br>
+            Não se esqueça que o Karate deve iniciar com saudação e terminar com saudação. <br><br>
+
+            <b>空手に先手なし</b><br>
+            <small><i>Karate ni sente nashi</i></small><br>
+            No Karate não existe atitude ofensiva.<br><br>
+
+            <b>空手は義の補け</b><br>
+            <small><i>Karate wa, gi no taske</i></small><br>
+            O Karate é um assistente da justiça.<br><br>
+
+            <b>先づ自己を知れ而して他を知れ</b><br>
+            <small><i>Mazu onore o shire, shikashite ta o Shire</i></small><br>
+            Conheça a si próprio antes de julgar os outros.<br><br>
+
+            <b>技術より心術</b><br>
+            <small><i>Gijitsu yori shinjitsu</i></small><br>
+            O espírito é mais importante do que a técnica.<br><br>
+
+             <b>心は放たん事を要す</b><br>
+            <small><i>Kokoro wa hanatan koto o yosu</i></small><br>
+            Evitar o descontrole do equilíbrio mental.<br><br>
+
+            <b>禍は懈怠に生ず</b><br>
+            <small><i>Wazawai wa ketai ni seizu</i></small><br>
+            Os infortúnios são causados pela negligência.<br><br>
+
+            <b>道場のみの空手と思ふな</b><br>
+            <small><i>Dojo nomino karate to omou na</i></small><br>
+            O Karate não se limita apenas à academia.<br><br>
+
+            <b>空手の修業は一生である</b><br>
+            <small><i>Karate-do no shugyo wa isssho de aru</i></small><br>
+            O aprendizado do Karate deve ser perseguido durante toda a vida.<br><br>
+
+            <b>凡ゆるものを空手化せよ其処に妙味あり</b><br>
+            <small><i>yuru mono o karateka seyo; sokoni myomi Ari</i></small><br>
+            O Karate dará frutos quando associado à vida cotidiana.<br><br>
+
+            <b>空手は湯の如し絶えず熱度を与えざれば元の水に還る</b><br>
+            <small><i>Karate Wa Yu No Gotoku Taezu Netsu O Atae Zareba Motono Mizuni Kaeru</i></small><br>
+            O Karate é como água quente. Se não receber calor constantemente torna-se água fria.<br><br>
+
+            <b>勝つ考は持つな負けぬ考は必要</b><br>
+            <small><i>Katsu kangae wa motsuna; makenu kangae wa hitsuyo</i></small><br>
+            Não pense em vencer, pense em não ser vencido.<br><br>
+
+            <b>敵に因って轉化せよ</b><br>
+            <small><i>Tekki ni yotte tenka seyo</i></small><br>
+            Mude de atitude conforme o adversário.<br><br>
+
+            <b>戦は虚実の操縦如何に在り</b><br>
+            <small><i>Tattakai wa kyo-jitsu no soju ikan ni Ari</i></small><br>
+            A luta depende do manejo dos pontos fracos (KYO) e fortes (JITSU).<br><br>
+
+            <b>人の手足を剣と思へ</b><br>
+            <small><i>Hi to no te-ashi wa ken to omoe</i></small><br>
+            Imagine que os membros de seus adversários são como espadas.<br><br>
+
+            <b>男子門を出づれば百万の敵あり</b><br>
+            <small><i>Danshi mon o izureba hyakuman no teki Ari</i></small><br>
+            Para cada homem que sai do seu portão, existem milhões de adversários.<br><br>
+
+            <b>構は初心者に後は自然体</b><br>
+            <small><i>Kamae wa shoshinsha ni atowa shizentai</i></small><br>
+            No início seus movimentos são artificiais, mas com a evolução tornam-se naturais.<br><br>
+
+            <b>形は正しく実戦は別物</b><br>
+            <small><i>Kata wa tadashiku, jisen wa betsumono</i></small> <br>
+            A prática de fundamentos deve ser correta, porém na aplicação torna-se diferente.<br><br>
+
+            <b>力の強弱体の伸縮技の緩急を忘るな</b><br>
+            <small><i>Chikara no kyojaku tai no shinshuku waza no kankyu</i></small><br>
+            Não se esqueça de aplicar corretamente:  alta e baixa intensidade de força; expansão e contração corporal; técnicas lentas e rápidas.<br><br>
+
+            <b>常に思念工夫せよ</b><br>
+            <small><i>Tsune ni shinen ku fu seyo</i></small><br>
+            Estudar, praticar e aperfeiçoar-se sempre.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Sair</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal ensinamentos musashi-->
+  <div class="modal fade" id="modal_ensinamentosmusashi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Os Ensinamentos de Miyamoto Muzashi</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <i>_“O objetivo final das artes marciais é não ter que usá-las.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“É difícil entender o universo se você estuda apenas um planeta”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Você pode abandonar seu próprio corpo, mas deve preservar sua honra.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“A percepção é forte e a visão é fraca. Em estratégia, é importante ver o que está distante como se estivesse próximo e ter uma visão distanciada do que está próximo.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Na batalha, se você fizer o seu adversário recuar, você já ganhou.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Se você não controlar o inimigo, o inimigo irá controlá-lo.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Entre a força e a técnica, vence a técnica. Se a força e a técnica forem iguais, vence o Espírito.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Respeite o Buda e os deuses sem contar com a ajuda deles.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Não faça nada que não tenha utilidade.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Perceba as qualidades positivas e negativas de tudo, distinguindo entre ganho e perda nas questões mundanas.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Você deve entender que há mais de um caminho para o topo da montanha.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Conhecer a virtude de todas as profissões.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Não pense desonestamente, pense no que é correto e verdadeiro.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Percebam aquilo que não pode ser visto com os olhos.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Desenvolver a capacidade de discernir a verdade em todas as coisas.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“O sedentarismo é o caminho para a morte. A fluidez é o caminho para a vida.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Um homem não pode entender a arte que está estudando se apenas procura o resultado final sem ter tempo para se aprofundar no raciocínio do estudo.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Controle a sua fúria. Se você guardar rancor contra os outros, eles têm controle sobre você.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“O guerreiro não deve morrer sem antes ter usado suas armas.”</i> <br>
+            <p class="text-center">____________________________________</p>
+            <i>_“Acima de tudo deve-se ter em mente que a morte é inevitável.”</i>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Sair</button>

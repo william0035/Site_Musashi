@@ -6195,6 +6195,10 @@ button.bg-dark:focus {
   background-color: transparent !important;
 }
 
+.bg-professores {
+  background-color: #e9e9e9;
+}
+
 .border {
   border: 1px solid #dee2e6 !important;
 }
@@ -10543,5 +10547,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fed136;
 }
 
+.alinhar_prof{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
 
 
