@@ -10556,7 +10556,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 .maps{
   margin: 10px;
   border: #000;
-  border-radius: 80px;
+  
+}
+
+.borda{
+  border-style: solid;
 }
 
 
